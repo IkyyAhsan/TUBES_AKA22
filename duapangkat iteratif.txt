@@ -1,0 +1,11 @@
+function duapangkat_iteratif(n: integer) -> integer
+kamus
+    	p, l : integer
+algoritma
+	l = 1
+    	p = 0
+    	while n > p do
+        		n = n - 1
+       		l = l * 2
+    	endwhile
+endfunction
