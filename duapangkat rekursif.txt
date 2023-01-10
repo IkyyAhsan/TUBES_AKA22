@@ -1,0 +1,9 @@
+function duapangkat(n: integer) -> integer
+kamus
+algoritma
+	if n == 0 then
+		return 1
+	else
+		return ((dua_pangkat(n-1)*2)
+	endif
+endfunction
