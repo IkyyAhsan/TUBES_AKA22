@@ -14,8 +14,8 @@ def dua_pangkat(n):
     else:
         return ((dua_pangkat(n-1))*2)
 
-j = 1
-while j <= 10:
+j = 100
+while j <= 500:
     start = time.time()
     print(duapangkat(j))
     end = time.time()
